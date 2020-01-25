@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleCVup.css">
+    <title>Kobi Alen</title>
+</head>
+<body>
+    <div class="topbar">
+        <div>
+            <img src="tempImgCV/profileCV.png" alt="profile">
+        </div>
+        <div class="brief">
+            <em> Kobi Alen, <br> Computer Science student- 3rd Year </em>
+        </div>
+    </div>
+    <div class="navi">
+        <div>
+            <div id="cvnav">My CV</div>
+        </div>
+        <div>
+            <div id="aboutnav">About Me</div>
+        </div>
+        <div>
+            <div id="projectsnav">Projects</div>
+        </div>
+        <div>
+            <div id="contactnav">Contact</div>
+        </div>
+    </div>
+    <div class="cvimg">
+        <h2>My CV</h2>
+        <img src="tempImgCV/Kobi Alen- cvupdated1-1.png" alt="cvfile">
+    </div>
+    <div class="aboutme">
+        <h2>About Me</h2>
+        <div> 
+            My name is Kobi Alen,<br><br>
+            24 years old, currently studing computer science in HIT (Holon Institute of Technology).<br>
+            I have a passion for technology and computers, and i wish to grow and develop myself in these areas.<br><br>
+            I see myself as a very friendly person, a dedicated worker and I always strive for success.<br><br>
+            My Strengths include C# , Java , C++ skills, Hands on experience with C# programing in prior jobs, <br>Hands on experience with SQL Server and strong analytical skills.
+        </div>
+    </div>
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="projgrid">
+            <a class="visualsorting" href="visualsorting.html">Visual Sorting</a> 
+            <a class="memorygame" href="memorygame.html">Memory Game</a>
+            <a class="tictactoe" href="tictactoe.html">Tic Tac Toe</a>    
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <div>
+                Please feel free to contact me by Phone/E-Mail/Linkdin.<br>The contact information is shown below:<br><br><br>
+                <strong>Phone:</strong> 054-7879170<br><br>
+                <strong>E-Mail:</strong> Kobi1324@gmail.com<br><br>
+                <strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/kobi-alen-147a0a160">Click here</a> <br><br>
+                <strong>City:</strong> Holon, Israel
+                <br><br><br>Thanks alot for your time, Hope to hear from you!
+        </div>
+    </div>
+    <script src="jsscript.js"></script>
+</body>
+</html>
