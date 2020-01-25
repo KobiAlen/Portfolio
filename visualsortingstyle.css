@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(113, 175, 226);
+}
+
+#chartContainer{
+    display: block;
+    height: 500px;
+    width: 100%;
+    box-shadow: black 0 0 10px;
+}
+
+#gobtn{
+    background: green;
+    height:30px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    text-shadow: black 0 0 5px;
+    box-shadow: black 0 0 5px;
+    display: inline-block;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#gobtn:hover{
+    box-shadow: black 0 0 10px;
+}
+
+#bubblesort,#selectionsort,#quicksort,#mergesort{
+    background: rgb(45, 103, 211);
+    height:30px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    text-shadow: black 0 0 5px;
+    box-shadow: black 0 0 2px;
+    display: inline-block;
+    border-radius: 0%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: solid black 1px;
+}
+
+#bubblesort:hover,#selectionsort:hover,#quicksort:hover,#mergesort:hover{
+    border: solid white 1px;
+}
+
+div.menu{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+div.menu a{
+    background: rgb(20, 125, 211);
+    height:30px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    text-shadow: black 0 0 5px;
+    box-shadow: black 0 0 5px;
+    border-radius: 10%;
+    margin: 5px;
+
+}
+div.menu a:hover{
+    box-shadow: black 0 0 10px;
+}
+
+div.menu div{
+    background: rgb(20, 125, 211);
+    height:30px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    margin-top: 20px;
+    text-shadow: black 0 0 5px;
+    box-shadow: black 0 0 5px;
+    display: inline-block;
+    border-radius: 10%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#bubblesort.pressed,#selectionsort.pressed,#quicksort.pressed,#mergesort.pressed{
+    background: rgb(5, 50, 87);
+}
+
+div.menu div:hover{
+    box-shadow: black 0 0 10px;
+}
